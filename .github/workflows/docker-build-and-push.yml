@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          image: ferr7s/github-actions-test
+          tags: ferr7s/app:latest
